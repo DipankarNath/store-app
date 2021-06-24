@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import { filter } from 'lodash';
 import {Button, Container, FormControl, FormGroup, Grid, InputLabel, MenuItem, Select} from "@material-ui/core";
 import { useSelector, useDispatch } from 'react-redux';
-import {BASIC_DATA, CATEGORY} from "../Data/dataDump";
+import {CATEGORY} from "../Data/dataDump";
 import DataTable from "./dataTable";
 import SaveIcon from "@material-ui/icons/Save";
 import DialogForm from "./dialogForm";
